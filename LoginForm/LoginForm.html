@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!--header-->
+    <header>
+        <h2 class = "logo">Welcome</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <button class="btnlogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <!--halaman login -->
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><icon-icon name="mail"></icon-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><icon-icon name="locl-closed"></icon-icon></span>
+                    <input type="password" required>
+                    <label>password</label>
+                </div>
+                <div class="ingat">
+                    <label><input type ="checkbox">
+                        Simpan password>
+                    <a href="#">Lupa password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Buat akun baru?<a href="#" class=register-link>Daftar</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!--halaman Daftar-->
+        <div class="form-box register">
+            <h2>Daftar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><icon-icon name="person"></icon-icon></span>
+                    <input type="email"required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><icon-icon name="mail"></icon-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><icon-icon name="lock-closed"></icon-icon></span>
+                    <input type="password" required>
+                    <label>password</label>
+                </div>
+                <div class="ingat">
+                    <label><input type="checkbox">
+                        Simpan akun>
+                </div>
+                <button type="submit" class="btn">Buat Akun</button>
+                <div class="login-register">
+                    <p>Akun lama?<a href="#" class="login-link"> Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
